@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <img
+        class="img-peppa"
+        src="peppa.png"
+        alt="error.png"
+        width="350px"
+        height="220spx
+  "
+      />
+      <div class="greeting">Welcome to Survival Race!</div>
+    </div>
+    <div class="body">
+
+
+      <div class="select_car">
+        <div class="choose">Choose a car:</div>
+        <button id="Civilian">Civilian</button>
+        <button id="Sport">Sport</button>
+        <button id="Military">Military</button>
+   
+      </div>
+
+      <div class="settings hidden">
+        <h3 class="distribute_points">You have 2 points to impove 
+          characteristics of your car: </h3>
+
+        <label for="fuel">
+          Additional fuel tank capacity: </label>
+        <input type="number" name="fuel" id="fuel" /><br />
+
+        <label for="lowFuelConsumption">
+          Fuel optimization factor: </label>
+        <input type="number" name="lowFuelConsumption" id="lowFuelConsumption" /><br />
+
+        <label for="durability">
+          Vehicle durability: </label>
+        <input type="number" name="durability" id="durability" /><br />
+
+        <label for="speed">
+          Speed ​​increase: </label>
+        <input type="number" name="speed" id="speed" /><br />
+        
+        <label for="power_reserve">Power reserve: </label>
+
+        <input type="text" name="power_reserve" id="power_reserve" disabled />
+  
+        <button class="save_car">Add points</button>
+      </div>
+
+      <div class="enemies hidden">
+        <label for="choose_enemies"> 
+          Select the number of enemies(Bots): </label>
+        <input type="number" value="1" name="choose_enemies" id="choose_enemies" min="1" max = "10" />
+        <br />
+        <br />
+        <button class="save_enemies">Add rival</button>
+      </div>
+
+
+
+      <div class="table hidden">
+        <div class="table_heads">
+          <div>Name</div>
+          <div>
+            Power reserve</div>
+          <div>Durability</div>
+          <div>Speed</div>
+        </div>
+    </div>
+
+
+    <script src="task1.js"></script>
+  </body>
+</html>

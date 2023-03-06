@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  background-color: rgb(184, 163, 47);
+}
+.hidden {
+  visibility: hidden;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-grow: 2;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgb(88, 27, 27);
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.table_heads {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.table_heads div {
+  padding-left: 30px;
+  flex-basis: 25%;
+}
+
+.table_list {
+  display: flex;
+}
+
+.table_list div {
+  padding-left: 30px;
+  flex-basis: 25%;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  margin-bottom: 25px;
+}
+.flexbox-wrapper > div {
+  width: 50%;
+}
+.select_car {
+  text-align: center;
+  margin-top: 5%;
+  color: #062941;
+}
+.choose_header {
+  font-size: xx-large;
+  margin-bottom: 1%;
+  color: #062941;
+}
+.choose {
+  margin-bottom: 4%;
+  font-size: xx-large;
+}
+.enemies {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 35%;
+  padding-right: 35%;
+  margin-top: 10%;
+  color: #062941;
+}
+.save_enemies {
+  margin: 0 auto;
+  display: block;
+  color: #062941;
+}
+.distribute_points {
+  font-size: x-large;
+  text-align: center;
+  color: #062941;
+}
+label {
+  text-align: center;
+  color: #062941;
+  font-size: large;
+  font-weight: 500;
+}
+.settings {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.save_car {
+  margin: 0 auto;
+  display: block;
+  color: #062941;
+  margin-top: 2%;
+}
+.greeting {
+  font-size: xx-large;
+  color: rgb(57, 105, 160);
+  font-weight: 700;
+  padding-left: 20%;
+}
+input {
+  border-color: blue;
+  border-radius: 10px;
+}
+button {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #fdbe33 #000 #d77206;
+  border-radius: 6px;
+  background: linear-gradient(#f3ae0f, #e38916) #e38916;
+  transition: 0.2s;
+}
+button:hover {
+  background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+button:active {
+  background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
