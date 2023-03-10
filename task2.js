@@ -38,3 +38,4 @@ function getInterval(arr, from, to) {
   let newArray = getNewArray(arr, from, to);
   return newArray;
 }
+
